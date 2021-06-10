@@ -3,7 +3,7 @@ const order = true;
 const breakfastPromise = new Promise ((resolve, reject)=> {
  setTimeout(()=> {
  if(order) { 
-    resolve(  "Your order is ready. Come and get it!");
+    resolve("Your order is ready. Come and get it!");
  } else {
      reject(Error("Your order cannot be made"))
    }
