@@ -52,6 +52,6 @@ btn.addEventListener("click", (event) => {
   getJSON(astrosUrl);
   .then(getProfiles)
   .then(data => console.log(data))
-  .catch 
+  .catch(err => console.log(err))
   event.target.remove();
 });

@@ -12,4 +12,6 @@ const breakfastPromise = new Promise ((resolve, reject)=> {
 });
 
 console.log(breakfastPromise);
-breakfastPromise.then( val => console.log(val)).catch( err => console.log(err))
+breakfastPromise
+.then( val => console.log(val))
+.catch( err => console.log(err))
